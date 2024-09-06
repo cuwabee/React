@@ -1,0 +1,68 @@
+.catalog {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 2rem;
+  }
+  
+  .catalog h1 {
+    text-align: center;
+    margin-bottom: 2rem;
+  }
+  
+  .search-bar {
+    margin-bottom: 2rem;
+    text-align: center;
+  }
+  
+  .search-bar input {
+    width: 100%;
+    max-width: 500px;
+    padding: 0.5rem;
+    font-size: 1rem;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+  }
+  
+  .novel-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+    gap: 2rem;
+  }
+  
+  .novel-card {
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    padding: 1rem;
+    text-align: center;
+    transition: transform 0.3s ease-in-out;
+  }
+  
+  .novel-card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 5px 15px rgba(0,0,0,0.1);
+  }
+  
+  .novel-card img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 4px;
+    margin-bottom: 1rem;
+  }
+  
+  .novel-card h3 {
+    margin: 0.5rem 0;
+    font-size: 1.1rem;
+  }
+  
+  .novel-card p {
+    color: #666;
+    margin-bottom: 0.5rem;
+  }
+  
+  .novel-card a {
+    display: inline-block;
+    margin-top: 0.5rem;
+    color: #3498db;
+    text-decoration: none;
+    font-weight: bold;
+  }

@@ -1,0 +1,15 @@
+.nouveautes-container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+  }
+  
+  .nouveautes-container h1 {
+    color: #2c3e50;
+    margin-bottom: 20px;
+  }
+  
+  .nouveautes-container p {
+    margin-bottom: 20px;
+    color: #34495e;
+  }

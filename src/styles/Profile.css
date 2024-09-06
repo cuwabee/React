@@ -1,0 +1,70 @@
+.profile-container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+  }
+  
+  .profile-container h1 {
+    color: #2c3e50;
+    margin-bottom: 20px;
+  }
+  
+  .profile-info, .favorite-genres, .read-novels {
+    margin-bottom: 30px;
+  }
+  
+  .profile-info h2, .favorite-genres h2, .read-novels h2 {
+    color: #34495e;
+    margin-bottom: 15px;
+  }
+  
+  .form-group {
+    margin-bottom: 15px;
+  }
+  
+  .form-group label {
+    display: block;
+    margin-bottom: 5px;
+    color: #7f8c8d;
+  }
+  
+  .form-group input {
+    width: 100%;
+    padding: 8px;
+    border: 1px solid #bdc3c7;
+    border-radius: 4px;
+  }
+  
+  button {
+    background-color: #3498db;
+    color: white;
+    border: none;
+    padding: 10px 15px;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+  }
+  
+  button:hover {
+    background-color: #2980b9;
+  }
+  
+  ul {
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  ul li {
+    margin-bottom: 5px;
+    color: #34495e;
+  }
+  
+  .loading, .error, .not-found {
+    text-align: center;
+    color: #7f8c8d;
+    margin-top: 20px;
+  }
+  
+  .error {
+    color: #e74c3c;
+  }

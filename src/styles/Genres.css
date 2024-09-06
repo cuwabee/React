@@ -1,0 +1,39 @@
+.genres-container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+  }
+  
+  .genres-container h1 {
+    color: #2c3e50;
+    margin-bottom: 20px;
+  }
+  
+  .genre-list {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+    gap: 20px;
+  }
+  
+  .genre-item {
+    text-decoration: none;
+    color: inherit;
+  }
+  
+  .genre-card {
+    background-color: #f0f0f0;
+    border-radius: 8px;
+    padding: 20px;
+    text-align: center;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+  }
+  
+  .genre-card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 5px 15px rgba(0,0,0,0.1);
+  }
+  
+  .genre-card h3 {
+    margin: 0;
+    color: #2c3e50;
+  }
